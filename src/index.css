@@ -1,0 +1,32 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+form {
+  @apply flex flex-col gap-4;
+}
+
+input, button {
+  @apply p-2 border rounded;
+}
+
+button {
+  @apply bg-blue-500 text-white;
+}
+
+ul {
+  @apply list-none p-0;
+}
+
+li {
+  @apply mb-4 p-4 bg-white rounded shadow;
+}
+
+div {
+  @apply flex flex-col gap-4;
+}
